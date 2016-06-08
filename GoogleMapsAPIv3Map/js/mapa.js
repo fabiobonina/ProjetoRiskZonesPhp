@@ -4,7 +4,7 @@ var infoBox = [];
 var markers = [];
 
 function initialize() {	
-	var latlng = new google.maps.LatLng(-18.8800397, -47.05878999999999);
+	var latlng = new google.maps.LatLng(-8.063646, -34.872773);
 	
     var options = {
         zoom: 5,
