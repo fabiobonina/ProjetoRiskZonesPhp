@@ -24,7 +24,7 @@
 
 
 		//Prepara o cadatro
-		$sql  = "INSERT INTO usuario2 (nome, email, usuario, senha, sexo, raca, data_nascimento, data_cadastro, data_ultimo_login, nivel_usuario, ativado) ";
+		$sql  = "INSERT INTO usuarios2 (nome, email, usuario, senha, sexo, raca, data_nascimento, data_cadastro, data_ultimo_login, nivel_usuario, ativado) ";
 		$sql .= "VALUES (:nome, :email, :usuario, :senha, :sexo, :raca, :data_nascimento, :data_cadastro, :data_ultimo_login, :nivel_usuario, :ativado)";
 		try {
 			$create = $db->prepare($sql);

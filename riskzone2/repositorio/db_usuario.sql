@@ -12,4 +12,4 @@ CREATE TABLE usuarios(
     nivel_usuario enum('0','1','2') NOT NULL default '0',
     ativado enum('0','1') NOT NULL default '0',
     PRIMARY KEY  (id)
-) ENGINE = MYISAM CHARACTER SET latin1 COLLATE latin1_general_ci COMMENT = '';
+)
