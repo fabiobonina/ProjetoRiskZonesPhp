@@ -1,5 +1,5 @@
 <?php
-
+	session_start();
 //Quando chamar 'funtion conectar' conexao.php 
 	include("conexao.php");
 	//$db=conectar();
@@ -57,6 +57,8 @@
 				)
 			);*/
 			if($create->execute()):
+				$_SESSION['UsuarioLog'] = true;
+				header("Location: ../index.php");
 				echo "<div class='alert alert-success'>
 				<button type='button' class='close' data-dismiss='alert'>&times;</button>
 				<strong>Inserido com sucesso!</strong>

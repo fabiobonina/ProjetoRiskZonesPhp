@@ -1,3 +1,15 @@
+<?php
+    session_start();
+  if (!isset($_SESSION['Usuariolog'])) {
+    header("Location: usuario.php");
+      session_destroy();
+  }
+  if (!isset($_GET['deslogar'])) {
+      session_destroy();
+          header("Location: usuario.php");
+  }
+
+?>
 <head>
 <meta charset="UTF-8">
    <link rel="stylesheet" href="css/bootstrap.css" />
@@ -25,6 +37,8 @@
     Nascimento: <input type="date" name="nascimento" /><br>
     <input type="submit" value="Salvar">
 </form>
+
+<a href="?deslogar">Sair</a>
 
 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
   Link with href

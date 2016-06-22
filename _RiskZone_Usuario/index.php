@@ -2,6 +2,12 @@
 	function __autoload($class_name){
 		require_once 'classes/' . $class_name . '.php';
 	}
+
+	session_start();
+	if (!isset($_SESSION['Usuariolog'])) {
+		header("Location: usuario.php;
+			session_destroy();
+	}
 ?>
 
 <!DOCTYPE HTML>

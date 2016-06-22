@@ -1,0 +1,37 @@
+
+#mapa { 
+	width: 640px;
+	height: 400px;
+
+}
+
+.grid_480{width:480}
+.margin-top-60{margin-top:60px}
+.margin-bottom-60{margin-bottom:60px}
+.f-left{float:left}
+
+
+
+
+/* =============== Estilos do autocomplete =============== */
+.ui-autocomplete { 
+	background: #fff; 
+	border-top: 1px solid #ccc;
+	cursor: pointer; 
+	font: 15px 'Open Sans',Arial;
+	margin-left: 3px;
+	width: 493px !important;
+	position: fixed;
+}
+
+.ui-autocomplete .ui-menu-item { 
+	list-style: none outside none;
+	padding: 7px 0 9px 10px;
+}
+
+.ui-autocomplete .ui-menu-item:hover { background: #eee }
+
+.ui-autocomplete .ui-corner-all { 
+	color: #666 !important;
+	display: block;
+}

@@ -26,7 +26,7 @@ function conectar(){
 	$buscasegura=$pdo->prepare("SELECT * FROM usuario WHERE ID=:id AND email=:email");
 	//Infoma pararamento $pdo->prepare
 	$buscasegura->bindValue(":id",$id);
-	$buscasegura->bindValue(":email","$email");
+	$buscasegura->bindValue(":email",$email);
 	$buscasegura->execute();
 
 	//Conta quantos o SELECT encontro de dados

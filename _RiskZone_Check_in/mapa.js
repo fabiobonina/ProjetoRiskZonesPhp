@@ -93,12 +93,13 @@ $(document).ready(function () {
 	
 	$("form").submit(function(event) {
 		event.preventDefault();
-		
+		var tipo = $("#txtTipo").val();
+		var chech_in = $("#txtCheck_in").val();
 		var endereco = $("#txtEndereco").val();
 		var latitude = $("#txtLatitude").val();
 		var longitude = $("#txtLongitude").val();
 		
-		alert("Endereço: " + endereco + "\nLatitude: " + latitude + "\nLongitude: " + longitude);
+		alert("Tipo: " + tipo + "\nCheck_in: " + chech_in + "\nEndereço: " + endereco + "\nLatitude: " + latitude + "\nLongitude: " + longitude );
 	});
 
 });

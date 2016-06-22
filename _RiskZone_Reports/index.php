@@ -26,17 +26,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Project name</a>
+                    <a class="brand" href="#">Risk Zone</a>
                     <div class="nav-collapse collapse">
                         <p class="navbar-text pull-right">
-                            <tagsFabio:usuarioLogado/> <a href="#" class="navbar-link"><tagsFabio:entrarSair/></a>
-                            <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                            <button type="button" class="btn btn-default navbar-btn">Logar</button>
+                            <button type="button" class="btn btn-default navbar-btn">Cadastrar</button>
                         </p>
 
                         <ul class="nav">
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#about">Check_in</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
